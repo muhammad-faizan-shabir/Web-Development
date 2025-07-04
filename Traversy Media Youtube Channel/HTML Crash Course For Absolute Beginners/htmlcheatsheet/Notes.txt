@@ -129,7 +129,7 @@
 		- blockquote tag
 		- abbr tag
 		- cite tag
-	- style tag: to be used in the head tag for internal css
+	- style tag: to be used in the head tag for internal CSS
 
 - HTML5 Semantic Tags
 	- A semantic element clearly describes its meaning to both the browser and the developer.
