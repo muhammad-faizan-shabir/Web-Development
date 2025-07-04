@@ -1,0 +1,105 @@
+- These notes are for CSS3
+
+- What is CSS?
+	- Cascading Stylesheets
+	- NOT a programming language
+	- Stylesheet/Styling language
+	- Used for website layout and design
+	- Can be extended with Sass/Less
+
+- 3 Methods for adding CSS
+	- Inline CSS: Directly in the html element
+	- Internal CSS: Using style tags within a single document
+	- External CSS: Linking an external .css file
+
+- CSS Selectors
+	- Format
+		- selector declaration_start property property/value_separator value declaration_separator declaration_end
+		-    a                {   background-color       :             yellow           ;                 }
+	- A selector can be a tag name, a class or an Id
+	- For tag name use the tag name as it is
+	- For a class use a . sign before the class name
+	- For an Id use a # sign before the Id
+
+- Colors in CSS
+	- Color names : body{color:red;}
+	- HTML5 color names: body{background:coral;}
+	- Hexadecimal: h1{color:#00ff00;}
+	- RGB: p{color: rgb(0,0,255);}
+
+- Types of Fonts
+	- Web Safe Fonts (built-in)
+	- Special Fonts (need to be imported)
+
+- Ids vs. Classes
+	- Ids need to be unique i.e. one id can be assigned to just one element
+	- Classes do not need to be unique i.e. one class can be assigned to many elements
+
+- CSS Box Model
+	- content is surrounded by a border
+	- the space between the border and the content is padding
+	- the space between the border and the other elements is margin
+	- there is top, bottom, left and right padding
+	- there is top, bottom, left and right border
+	- there is top, bottom, left and right margin
+
+- Margin and Padding Shorthand
+	- p{margin-top:5px; margin:bottom:5px; margin:right:10px; margin-left:10px;}
+	- p{margin:5px 10px 5px 10px;} (top, right, bottom, left)
+	- p{margin:5px 10px;}
+	- above points also apply to padding
+
+- Text Formatting Styles
+	- font-family attribute
+	- font-weight attribute
+	- font-style attribute
+	- line-height atrribute
+	- text-decoration attribute
+	- text-transform attribute
+	- letter-spacing attribute
+	- word-spacing attribute
+	- text-align attribute
+
+- List Formatting
+	- list-style attribute
+	- list-style-image attribute: to be used for li tag
+
+- Links
+	- hover state
+	- active state
+	- visited state
+
+- Forms
+
+- Alignment and Floating
+	- Flexbox is a better alternative to float
+	- float attribute
+	- float creates problem with block elements below it and so clear attribute needs to be used
+	- width attribute
+	- box-sizing attribute
+
+- Positioning in CSS
+	- Static
+	- Relative
+	- Absolute
+	- Fixed
+	- Initial
+	- Inherit
+
+- Setting Images As Element Background
+	- background-image attribute
+	- background-position attribute: can use pixel values or keywords or percentages
+	- background-repeat attribute
+
+- Pseudo Classes
+	- first-child
+	- last-child
+	- nth-child() : can pass integer or even or odd as argument
+
+- display attribute
+	- can have a value of inline or block
+
+- making a webpage responsive to a change in the size of the browser window
+	- min-height attribute
+	- media query
+		- @media(condition){CSS Selectors}
