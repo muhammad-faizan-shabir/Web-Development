@@ -46,7 +46,7 @@ console.log(s.substring(0,5).toUpperCase());
 // Split into array
 console.log(s.split(''));
 const s2='technology, computers, it, code';
-console.log(s2.split(', '))
+console.log(s2.split(', '));
 
 // sinlge line comment
 
@@ -60,7 +60,7 @@ comment
 const numbers = new Array(1,2,3,4,5);
 console.log(numbers);
 
-const fruits = ['apples', 'oranges', 'pears', 10, true]
+const fruits = ['apples', 'oranges', 'pears', 10, true];
 console.log(fruits);
 // Get one value - Arrays start at 0
 console.log(fruits[1]);
@@ -95,7 +95,7 @@ const person=
         city:'Boston',
         state: 'MA'
     } 
-}
+};
 console.log(person);
 
 // Get single value
@@ -212,11 +212,11 @@ else if(a > 10)
 } 
 else 
 {
-  console.log('a is less than 10')
+  console.log('a is less than 10');
 }
 
 // Switch
-color = 'blue';
+let color = 'blue';
 
 switch(color) 
 {
@@ -227,7 +227,7 @@ switch(color)
     console.log('color is blue');
     break;
   default:  
-    console.log('color is not red or blue')
+    console.log('color is not red or blue');
 }
 
 // Ternary operator / Shorthand if
@@ -267,7 +267,7 @@ function Person(firstName, lastName, dob)
   //   return this.dob.getFullYear();
   // }
   // this.getFullName = function() {
-  //   return `${this.firstName} ${this.lastName}`
+  //   return `${this.firstName} ${this.lastName}`;
   // }
 }
 
@@ -280,7 +280,7 @@ Person.prototype.getBirthYear = function ()
 // Get Full Name
 Person.prototype.getFullName = function() 
 {
-  return `${this.firstName} ${this.lastName}`
+  return `${this.firstName} ${this.lastName}`;
 }
 
 // Instantiate an object from the class
@@ -317,7 +317,7 @@ class Person_
   // Get Full Name
   getFullName() 
   {
-    return `${this.firstName} ${this.lastName}`
+    return `${this.firstName} ${this.lastName}`;
   }
 }
 
