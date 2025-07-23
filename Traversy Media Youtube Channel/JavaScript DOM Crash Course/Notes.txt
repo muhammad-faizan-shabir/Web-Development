@@ -1,0 +1,79 @@
+- DOM Introduction
+	- Document Object Model
+	- Tree of nodes/elements created by the browser
+	- JavaScript can be used to read/write/manipulate to the DOM
+	- Object Oriented Representation
+
+- EXAMINE THE DOCUMENT OBJECT
+	- console.dir()
+	- console.log()
+
+- SELECTORS
+	- getElementById()
+	- getElementsByClassName()
+	- getElementsByTagName()
+	- querySelector()
+	- querySelectorAll()
+
+- PARENTS
+	- .parentNode
+	- .parentElement
+
+- CHILDREN
+	- .childNodes: this will capture whitespaces too in the form of text nodes
+	- .children
+	- .firstChild: this will capture whitespaces too in the form of text nodes
+	- .firstElementChild
+	- .lastChild: this will capture whitespaces too in the form of text nodes
+	- .lastElementChild
+
+- SIBLINGS
+	- .nextSibling: this will capture whitespaces too in the form of text nodes
+	- .nextElementSibling
+	- .previousSibling: this will capture whitespaces too in the form of text nodes
+	- .previousElementSibling
+
+- CREATE ELEMENTS
+	- .createElement()
+	- .createTextNode()
+	- .appendChild()
+
+- INSERT CREATED ELEMENTS INTO THE DOM
+	- .insertBefore()
+
+- EVENT LISTENER
+	- .addEventListener()
+
+- EVENT PARAMETER
+	- e.target
+	- e.type
+	- e.clientX
+	- e.clientY
+	- e.offsetX
+	- e.offsetY
+	- e.altKey
+    - e.ctrlKey
+    - e.shiftKey
+
+- MOUSE EVENTS
+	- click
+	- dblclick
+	- mousedown
+	- mouseup
+	- mouseenter
+	- mouseleave
+	- mouseover
+	- mouseout
+	- mousemove
+
+- KEYBOARD & INPUT EVENTS
+	- keydown
+	- keyup
+	- keypress
+	- focus
+	- blur
+	- cut
+	- paste
+	- input
+	- change
+	- submit
