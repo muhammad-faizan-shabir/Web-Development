@@ -170,6 +170,7 @@ newDiv.appendChild(newDivText);
 console.log(newDiv);
 
 // INSERT CREATED ELEMENTS INTO THE DOM
+
 let container = document.querySelector('header .container');
 let h1 = document.querySelector('header h1');
 newDiv.style.fontSize = '30px';
@@ -196,6 +197,7 @@ function buttonClick2(e)
     document.querySelector('#main').style.backgroundColor = 'coral';
 
     // EVENT PARAMETER
+
     console.log(e);
 
     // e.target
