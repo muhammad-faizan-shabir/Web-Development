@@ -1,7 +1,15 @@
 let form = document.getElementById('addForm');
+let itemList = document.getElementById('items');
+let filter = document.getElementById('filter');
 
 // Form submit event
 form.addEventListener('submit', addItem);
+
+// Delete event
+itemList.addEventListener('click', removeItem);
+
+// Filter event
+filter.addEventListener('keyup', filterItems);
 
 // Add item
 function addItem(e)
@@ -36,11 +44,6 @@ function addItem(e)
     itemList.appendChild(li);
 }
 
-let itemList = document.getElementById('items');
-
-// Delete event
-itemList.addEventListener('click', removeItem);
-
 // Remove item
 function removeItem(e)
 {
@@ -53,11 +56,6 @@ function removeItem(e)
         }
     }
 }
-
-let filter = document.getElementById('filter');
-
-// Filter event
-filter.addEventListener('keyup', filterItems);
 
 // Filter Items
 function filterItems(e)
