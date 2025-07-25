@@ -1,0 +1,142 @@
+- What is JavaScript?
+	- High level, interpreted programming language
+	- Conforms to the ECMAScript specification
+	- Multi-paradigm
+	- Runs on the client/browser as well as on the server (Node.js)
+	- dynamically typed
+	- TypeScript is a superset of JavaScript. It is basically JavaScript with some added features and static typing is one of those features
+
+- Why learn JavaScript?
+	- It is the programming language of the browser
+	- Build very interactive user interfaces with frameworks like React
+	- Used in building very fast server side and full stack applications
+	- Used in mobile development (React Native, NativeScript, Ionic)
+	- Used in desktop application development (Electron JS)
+
+- What you will learn in this course?
+	- Variables and Data Types
+	- Arrays
+	- Object Literals
+	- Methods for strings, arrays, objects, etc
+	- Loops - for, while, for...of, forEach, map
+	- Conditionals (if, ternary and switch)
+	- Functions (normal and arrow)
+	- OOP (prototypes and classes)
+	- DOM Selection
+	- DOM manipulation
+	- Events
+	- Basic Form Validation
+
+- Further Learning
+	- Modern JS From The Beginning
+	  21 Hour Udemy Course
+	- Youtube
+		- JavaScript DOM Crash Course - 4 parts
+		- JS OOP Crash Course
+		- High Order Array Methods Video
+		- Async JS Crash Course
+		- Fetch API and Ajax Crash Course
+		- Vanilla JS Playlist (Full of small projects)
+		- Framework crash courses: react, angular, vue
+
+- Script tag
+	- add script tag at the end in the body just before the ending body tag
+	- so that html and css loads first
+	- one can write JavaScript inside the script tag directly or write JavaScript in a separate file and link it to a script tag
+
+- alert() function
+	- shows a pop-up message in the browser window
+
+- MDN (Mozilla Developer Network) platform
+	- provides documentation for different technologies including JavaScript
+
+- LOGGING OUTPUT
+	- console.log('message');
+	- console.error('message');
+	- console.warn('message');
+
+- VARIABLES
+	- var, let, const
+	- var makes a variable globally scoped
+	- let and const have a block-level scope
+
+- DATA TYPES
+	- String
+	- Numbers
+	- Boolean
+	- null
+	- undefined
+	- Symbol
+
+- STRINGS AND STRING METHODS
+	- Concatenation
+	- Template String/Literal: use backticks ``
+	- length property
+	- toUpperCase() method
+	- toLowerCase() method
+	- substring() method
+	- split() method
+
+- COMMENTS
+	- // for single line comment
+	- /**/ for multi-line comment
+
+- ARRAYS - variables that hold multiple values
+	- can store heterogeneous data
+	- dynamically allocated
+	- no fixed size
+	- data can be added or removed
+	- push method
+	- unshift method
+	- pop method
+	- Array.isArray() method
+	- indexOf() method
+
+- OBJECT LITERALS: key-value pairs
+	- destructuring
+
+- ARRAYS OF OBJECTS AND JSON
+	- JSON is a format used to send data to a server or receive data from a server
+	- JSON.stringify() method
+
+- LOOPS
+	- for loop
+	- while loop
+	- For...of Loop
+
+- HIGH ORDER ARRAY METHODS (show prototype)
+	- forEach() - Loops through array
+	- map() - Loop through and create new array
+	- filter() - Returns array based on condition
+
+- CONDITIONALS
+	- == matches values only and not datatypes
+	- === matches values as well as datatypes
+	- Simple If/Else Statement
+	- Switch
+	- Ternary operator / Shorthand if
+
+- FUNCTIONS
+
+- ARROW FUNCTIONS: short way of defining a function
+
+- OOP
+	- ES5
+		- Constructor Function
+		- Prototype: used to add methods
+	- Built in constructors
+	- ES6 Classes
+		- do not require prototype to add methods
+		- methods can be added directly
+
+- ELEMENT SELECTORS
+	- Single Element Selectors
+	- Multiple Element Selectors
+
+- MANIPULATING THE DOM
+
+- EVENTS
+	- Mouse Event: include click, mouseover, mouseout
+	- Keyboard Event: include input
+
+- USER FORM SCRIPT EXAMPLE
