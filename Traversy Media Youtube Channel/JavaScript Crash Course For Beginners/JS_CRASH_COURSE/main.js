@@ -26,7 +26,7 @@ let z; // also undefined
 // Check type
 console.log(typeof name,typeof age,typeof rating,typeof isCool,typeof x,typeof y,typeof z);
 
-//STRINGS & STRING METHODS
+//STRINGS AND STRING METHODS
 // Concatenation
 console.log('My name is ' + name + ' and I am ' + age);
 // Template String/Literal (better): use backticks ``
@@ -85,16 +85,16 @@ console.log(fruits.indexOf('oranges'));
 // OBJECT LITERALS: key-value pairs
 const person=
 {
-    firstName:'John',
-    lastName:'Doe',
-    age:30,
-    hobbies: ['music', 'movies', 'sports'],
-    address:
-    {
-        street: '50 main st',
-        city:'Boston',
-        state: 'MA'
-    } 
+	firstName:'John',
+	lastName:'Doe',
+	age:30,
+	hobbies: ['music', 'movies', 'sports'],
+	address:
+	{
+		street: '50 main st',
+		city:'Boston',
+		state: 'MA'
+	} 
 };
 console.log(person);
 
@@ -111,26 +111,26 @@ console.log(firstName, lastName, city);
 person.email ='john@gmail.com';
 console.log(person);
 
-// ARRAYS OF OBJECTS & JSON
+// ARRAYS OF OBJECTS AND JSON
 const todos = 
 [
-  {
-    id: 1,
-    text: 'Take out trash',
-    isComplete: false
-  },
-  
-  {
-    id: 2,
-    text: 'Dinner with wife',
-    isComplete: false
-  },
-  
-  {
-    id: 3,
-    text: 'Meeting with boss',
-    isComplete: true
-  }
+	{
+		id: 1,
+		text: 'Take out trash',
+		isComplete: false
+	},
+	
+	{
+		id: 2,
+		text: 'Dinner with wife',
+		isComplete: false
+	},
+	
+	{
+		id: 3,
+		text: 'Meeting with boss',
+		isComplete: true
+	}
 ];
 console.log(todos);
 
@@ -144,58 +144,58 @@ console.log(todoJSON);
 // For
 for(let i = 0; i <= 10; i++)
 {
-  console.log(`For Loop Number: ${i}`);
+	console.log(`For Loop Number: ${i}`);
 }
 
 // While
 let i = 0;
 while(i <= 10) 
 {
-  console.log(`While Loop Number: ${i}`);
-  i++;
+	console.log(`While Loop Number: ${i}`);
+	i++;
 }
 
 // Loop Through Arrays
 // For Loop
 for(let i = 0; i < todos.length; i++)
 {
-  console.log(` Todo ${i + 1}: ${todos[i].text}`);
+	console.log(` Todo ${i + 1}: ${todos[i].text}`);
 }
 
 // For...of Loop
 for(let todo of todos) 
 {
-  console.log(todo.text);
+	console.log(todo.text);
 }
 
 // HIGH ORDER ARRAY METHODS (show prototype)
 
 // forEach() - Loops through array
 todos.forEach(
-  function(todo, i, myTodos) 
-  {
-    console.log(`${i + 1}: ${todo.text}`);
-    console.log(myTodos);
-  }
-);
+	function(todo, i, myTodos) 
+	{
+		console.log(`${i + 1}: ${todo.text}`);
+		console.log(myTodos);
+	}
+	);
 
 // map() - Loop through and create new array
 const todoTextArray = todos.map(
-  function(todo) 
-  {
-    return todo.text;
-  }
-);
+	function(todo) 
+	{
+		return todo.text;
+	}
+	);
 console.log(todoTextArray);
 
 // filter() - Returns array based on condition
 const todo1 = todos.filter(
-  function(todo) 
-  {
+	function(todo) 
+	{
     // Return only todos where id is 1
-    return todo.id === 1; 
-  }
-);
+		return todo.id === 1; 
+	}
+	);
 console.log(todo1);
 
 // CONDITIONALS
@@ -204,15 +204,15 @@ const a = 30;
 
 if(a === 10) 
 {
-  console.log('a is 10');
+	console.log('a is 10');
 } 
 else if(a > 10) 
 {
-  console.log('a is greater than 10');
+	console.log('a is greater than 10');
 } 
 else 
 {
-  console.log('a is less than 10');
+	console.log('a is less than 10');
 }
 
 // Switch
@@ -220,14 +220,14 @@ let color = 'blue';
 
 switch(color) 
 {
-  case 'red':
-    console.log('color is red');
-    break;
-  case 'blue':
-    console.log('color is blue');
-    break;
-  default:  
-    console.log('color is not red or blue');
+case 'red':
+	console.log('color is red');
+	break;
+case 'blue':
+	console.log('color is blue');
+	break;
+default:  
+	console.log('color is not red or blue');
 }
 
 // Ternary operator / Shorthand if
@@ -236,16 +236,16 @@ const v = color === 'red' ? 10 : 20;
 // FUNCTIONS
 function greet1(greeting = 'Hello', name) 
 {
-  if(!name) 
-  {
+	if(!name) 
+	{
     // console.log(greeting);
-    return greeting;
-  } 
-  else 
-  {
+		return greeting;
+	} 
+	else 
+	{
     // console.log(`${greeting} ${name}`);
-    return `${greeting} ${name}`;
-  }
+		return `${greeting} ${name}`;
+	}
 }
 console.log(greet1('Hey'));
 console.log(greet1('Hey','Carl'));
@@ -260,8 +260,8 @@ console.log(greet2('Hi'));
 function Person(firstName, lastName, dob) 
 {
   // Set object properties
-  this.firstName = firstName;
-  this.lastName = lastName;
+	this.firstName = firstName;
+	this.lastName = lastName;
   this.dob = new Date(dob); // Set to actual date object using Date constructor
   // this.getBirthYear = function(){
   //   return this.dob.getFullYear();
@@ -274,13 +274,13 @@ function Person(firstName, lastName, dob)
 // Get Birth Year
 Person.prototype.getBirthYear = function () 
 {
-  return this.dob.getFullYear();
+	return this.dob.getFullYear();
 }
 
 // Get Full Name
 Person.prototype.getFullName = function() 
 {
-  return `${this.firstName} ${this.lastName}`;
+	return `${this.firstName} ${this.lastName}`;
 }
 
 // Instantiate an object from the class
@@ -301,24 +301,24 @@ console.log(typeof num); // Shows 'Object'
 // ES6 Classes
 class Person_ 
 {
-  constructor(firstName, lastName, dob) 
-  {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.dob = new Date(dob);
-  }
+	constructor(firstName, lastName, dob) 
+	{
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dob = new Date(dob);
+	}
 
   // Get Birth Year
-  getBirthYear() 
-  {
-    return this.dob.getFullYear();
-  }
+	getBirthYear() 
+	{
+		return this.dob.getFullYear();
+	}
 
   // Get Full Name
-  getFullName() 
-  {
-    return `${this.firstName} ${this.lastName}`;
-  }
+	getFullName() 
+	{
+		return `${this.firstName} ${this.lastName}`;
+	}
 }
 
 const person3 = new Person_('John', 'Doe', '7-8-80');
@@ -380,33 +380,33 @@ myForm.addEventListener('submit', onSubmit);
 
 function onSubmit(e) 
 {
-  e.preventDefault();
-  
-  if(nameInput.value === '' || emailInput.value === '') 
-  {
+	e.preventDefault();
+	
+	if(nameInput.value === '' || emailInput.value === '') 
+	{
     // alert('Please enter all fields');
-    msg.classList.add('error');
-    msg.innerHTML = 'Please enter all fields';
+		msg.classList.add('error');
+		msg.innerHTML = 'Please enter all fields';
 
     // Remove error after 3 seconds
-    setTimeout(() => msg.remove(), 3000);
-  } 
-  else 
-  {
+		setTimeout(() => msg.remove(), 3000);
+	} 
+	else 
+	{
     // Create new list item with user
-    const li = document.createElement('li');
+		const li = document.createElement('li');
 
     // Add text node with input values
-    li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
+		li.appendChild(document.createTextNode(`${nameInput.value}: ${emailInput.value}`));
 
     // Add HTML
     // li.innerHTML = `<strong>${nameInput.value}</strong>e: ${emailInput.value}`;
 
     // Append to ul
-    userList.appendChild(li);
+		userList.appendChild(li);
 
     // Clear fields
-    nameInput.value = '';
-    emailInput.value = '';
-  }
+		nameInput.value = '';
+		emailInput.value = '';
+	}
 }
