@@ -66,10 +66,12 @@
 	- mouseout
 	- mousemove
 
-- KEYBOARD & INPUT EVENTS
+- KEYBOARD EVENTS
 	- keydown
 	- keyup
 	- keypress
+	
+- INPUT EVENTS
 	- focus
 	- blur
 	- cut
