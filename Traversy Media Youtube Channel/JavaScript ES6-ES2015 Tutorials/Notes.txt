@@ -1,0 +1,75 @@
+- What is ECMAScript?
+	- ECMAScript is a scripting language standard and specification
+	- languages based on this standard are:
+		- JavaScript
+		- Jscript
+		- ActionScript
+
+- What is ES6?
+	- the most recent version of ECMAScript/JavaScript
+	- very significant update with many changes
+	- first major update since ES5 (2009)
+	- ES6 and ES2015 are the same thing
+
+- Goals Of ES6
+	- be taken more seriously
+	- fix some issues from ES5
+	- backward compatibility - ES5 should work in ES6
+	- modern syntax
+	- better scaling and better for big applications
+	- new features in standard library
+
+- Compatibility
+	- still quite a ways to go for some browsers
+	- latest versions of Chrome and Firefox are almost there
+	- transpilers can be used to compile ES6 code to ES5
+		- Babel
+		- Traceur
+		- Closure
+
+- What's New? An Overview
+	- let and const declarations
+	- destructuring assignment
+	- classes and inheritance
+	- template strings
+	- string features
+	- math and number features
+	- new data structures
+	- iterators
+	- generators
+	- promises and asynchronous data
+	- arrow functions
+
+- let AND const DECLARATION
+
+- CLASSES AND INHERITANCE
+
+- TEMPLATE LITERALS
+
+- STRING METHODS
+	- startsWith()
+	- endsWith()
+	- includes()
+	
+- NUMBER METHODS
+	- Hex
+	- Binary
+	- Octal
+	- isFinite()
+	- isNaN()
+	- isInteger()
+
+- DEFAULT PARAMETERS
+
+- SPREAD OPERATOR AND REST OPERATOR
+
+- SET AND WEAKSET
+
+- MAP AND WEAKMAP
+
+- ARROW FUNCTIONS
+
+- PROMISES
+
+- GENERATORS
+	- use * for generator
